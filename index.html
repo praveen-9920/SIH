@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="line"></div>
+    <div class="container">
+        <img class="bot_img" src="Assets/images/bot-automation-234tdgf.png" alt="">
+        <h1 class="heading">Chat craft</h1>
+        <button onclick="show()" class="showbtn">
+            <i class="bx bx-dots-vertical"></i>
+        </button>
+    </div>
+    <div class="content">
+        <ul class="ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="feedback.html">Contact</a></li>
+            <li><a href="chatbot.html">chatbot</a></li>
+            <li><a href="login_signUp.html ">Sign in</a></li>
+        </ul>
+    </div>
+<div class="hide">
+    <main>
+        <section>
+            <h1 class="h1">Welcome to Your Website</h1>
+
+        </section>
+    </main>
+
+    <section class="conversational">
+        <p class="chatbot-text">Build conversational AI chatbots infused with new generative AI capabilities</p>
+        <img src="Assets/images/ai chatbot.png" alt="" id="img2" height="500px">
+        <button class="btn-1">Try wastons Assistant <span class="span">&#8594;</span></button>
+        <button class="btn"> Book a demo <span>&#8594;</span></button>
+    </section>
+    <section class="section">
+        <hr>
+        <p class="dcr">
+            At the most basic level, a chatbot is a computer program that simulates and processes human
+            conversation (either written or spoken), allowing humans to interact with digital devices as if
+            they were communicating with a real person. Chatbots can be as simple as rudimentary programs
+            that answer a simple query with a single-line response, or as sophisticated as digital assistants
+            that learn and evolve to deliver increasing levels of personalization as they gather and process
+            information.
+        </p>
+    </section>
+
+    <!-- <div class="video">
+        <section class="section-2">
+            <div class="vid">
+                <video src="Assets/" height="308px" autoplay="autoplay"
+                    controls="controls" muted></video>
+            </div>
+        </section>
+    </div> -->
+
+    <div class="video_text">
+        <div class="video">
+            <video src="Assets/video/What are Chatbots_.mp4" height="308px" autoplay="autoplay"
+                    controls="controls" muted ></video>
+        </div>
+        <div class="text">
+            <p>
+                >> Provide fast, 24/7 customer service.</br>
+                >> Offer more personalized experiences. </br>
+                >> Deliver multilingual support. </br>
+                >> Ensure more consistent support. </br>
+                >> Offer convenient self-service options. </br>
+                >> Provide proactive customer service.
+            </p>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container1">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>chatbot</h4>
+                    <ul>
+                        <li><a href="">About as</a></li>
+                        <li><a href="">our Service</a></li>
+                        <li><a href="">privacy policy</a></li>
+                        <li><a href="">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">shipping</a></li>
+                        <li><a href="">returns</a></li>
+                        <li><a href="">order status</a></li>
+                        <li><a href="">payment opitons</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="">vedas</a></li>
+                        <li><a href="">books</a></li>
+                        <li><a href="">papers</a></li>
+                        <li><a href="">e-book</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow as</h4>
+                    <div class="social-links">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <footer class="footer1">
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+</div>
+    <script>
+        // const toggleBtn = document.getElementById('toggleList');
+        // const navList = document.getElementById('navi-list');
+
+        // toggleBtn.addEventListener('click', () => {
+        //     navList.classList.toggle('active');
+        // })
+
+
+        let links = document.querySelector('.content')
+        let list = document.querySelector('.ul')
+        let section = document.querySelector('.hide')
+        console.log(section);
+
+        function show() {
+            links.classList.toggle('links')
+            list.classList.toggle('add')
+            section.classList.toggle('about_click')
+        }
+    </script>
+    </script>
+
+</body>
+
+</html>
